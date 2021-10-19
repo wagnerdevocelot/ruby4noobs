@@ -36,7 +36,13 @@ Explique um pouco sobre o 4noobs que está desenvolvendo.
 
 ## ROADMAP
 
-- [Conteúdo 1](link-primeira-parte)
+- # Introdução
+- # Configuração do ambiente
+  1. [Editores e Plugins](https://github.com/wagnerdevocelot/ruby4noobs/blob/main/2-ambiente/1_editores-e-plugins.md)
+  4. [Ambiente MacOS](https://github.com/wagnerdevocelot/ruby4noobs/blob/main/2-ambiente/4_ambiente-macos.md)
+  5. [Dicas Gerais](https://github.com/wagnerdevocelot/ruby4noobs/blob/main/2-ambiente/5_dicas_gerais.md)
+
+  
 - [Conteúdo 2](link-segunda-parte)
 - [Conteúdo 3](link-terceira-parte)
   - [Sub-conteúdo](link-sub-conteudo)
