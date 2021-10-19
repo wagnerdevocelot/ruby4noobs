@@ -51,8 +51,6 @@ Rubycritic é uma [gem](https://pt.wikipedia.org/wiki/RubyGems) (pacote) que faz
  
 <hr>
 
-<img  src="../images/phpstorm.png"  alt="php"  width="120">
-
  
 ### Ambientes Online
 
