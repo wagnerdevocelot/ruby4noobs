@@ -59,7 +59,6 @@ Homebrew 2.7.5 # Ou qualquer outra versão
 
 # Para installar a versão mais recente
 
-```bash
 brew install ruby
 ```
 
