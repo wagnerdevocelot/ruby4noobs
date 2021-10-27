@@ -38,3 +38,30 @@ Você também pode atribuir resultados de expressões em alguma variável
 > soma #=> A variável agora armaezena o resultado da expressão, 
 > 9 #=> e quando é chamada retorna o numero 9
 ```
+
+* Algo para você lembrar é que variavel ela não é "alguma coisa", ela é apenas o nome para alguma coisa, no caso um objeto, seja string, número, um array ou qualquer outro objeto em ruby.
+
+
+### Como nomear variaveis?
+
+Lembre-se que variavel é uma referência, então seja sempre sucinto e esclarecedor sobre o que a sua variavel faz. Observe o seguinte:
+
+```ruby
+a = 2
+b = 3
+c = 2 * (a + b)
+```
+Se te perguntarem o que esse código cálculo você dificlmente entenderia, poderia até tentar resolver o calculo e falar que ele faz a multiplicação da soma de dois valores, mas para qual finalidade? 
+
+Agora o mesmo exemplo com as variaveis nomeadas de um jeito mais adequado
+
+```ruby
+base = 2
+altura = 3
+perimetro = 2 * (a + b)
+```
+
+Pronto! Não precisa pensar muito pra entender que está calculando o perimetro de alguma coisa que tem base o valor 2 e uma altura de valor 3. Nesse caso específico é o perímetro de um retângulo. Bem melhor para entender, né? 
+
+Entretanto, sempre tenha em mente que nomear variaveis de forma clara e sucinta é sempre uma tarefa dificil, então procure sempre encontrar alguma que descreva bem que tipo de objeto ela guarda. Só lembrar do exemplo da caixa, como você encontraria uma caixa com dvds antigos guardados dentro dela?
+
