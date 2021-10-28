@@ -9,7 +9,7 @@ A questão aqui é que como os dados primitivos sao objetos eles podem ser manip
 
 ### Números
 
-Os tipos numéricos são utilizados para representar os mesmos dados que usamos na matemática. Então podemos fazer espressões matemáticas com eles.
+Os tipos numéricos são utilizados para representar os mesmos dados que usamos na matemática. Então podemos fazer expressões matemáticas com eles.
 
 ```ruby
     # Soma
