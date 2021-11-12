@@ -30,21 +30,29 @@ Manual de introdução a linguagem Ruby
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
-Explique um pouco sobre o 4noobs que está desenvolvendo.
+Ruby4Noobs
 
 <!-- ROADMAP OF PROJECT -->
 
 ## ROADMAP
 
 - # Introdução
+  1. [Boas Vindas](1-Introducao/1-Boas-vindas.md)
+  2. [Comunicação](1-Introducao/2-Comunicacao.md)
+
 - # Configuração do ambiente
   1. [Editores e Plugins](https://github.com/wagnerdevocelot/ruby4noobs/blob/main/2-ambiente/1_editores-e-plugins.md)
+  2. [Ambiente Windows](2-ambiente/2_Ambiente-windows.md)
+  3. [Ambiente Linux](2-ambiente/3_Ambiente-linux.md)
   4. [Ambiente MacOS](https://github.com/wagnerdevocelot/ruby4noobs/blob/main/2-ambiente/4_ambiente-macos.md)
   5. [Dicas Gerais](https://github.com/wagnerdevocelot/ruby4noobs/blob/main/2-ambiente/5_dicas_gerais.md)
 
-  
-- [Conteúdo 2](link-segunda-parte)
-- [Conteúdo 3](link-terceira-parte)
+
+- # Ruby Basico
+  1. [Tipos de Dados Primitivos](3-Dados-Primitivos/tipos-de-dados-primitivos.md)
+  2. [Variaveis](4-Variaveis/variaveis.md)
+  5. [Estruturas de Repetição](5-Estruturas-de-repeticao/estruturas-de-repeticao.md)
+  9. [Hashes](9-Hashes/hashes.md)
   - [Sub-conteúdo](link-sub-conteudo)
   	- [Sub-conteúdo](link-sub-conteudo)
   - [Sub-conteúdo](link-sub-conteudo)
