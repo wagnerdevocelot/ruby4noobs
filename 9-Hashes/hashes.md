@@ -14,7 +14,7 @@ Suponhamos que você esteja com muita fome e tenha duas opções: Ir ao mercado 
 hash = {"Prato n° 1" => "Macarrão",
         "Prato n° 2" => "Salada",
         "Prato n° 3" => "Bife"        
-}
+        }
 ```
 
 Ou de outra forma:
@@ -40,29 +40,76 @@ Dessa forma, podemos acessar uma `Chave` específica a fim de retornarmos seu `V
 > "Bife"
 ```
 
-Agora que aprendemos a acessar os valores, vamos progredir, `Adicionando` e `Editando` os dados:
+Agora que aprendemos a acessar os valores, vamos progredir, `Adicionando` , `Editando`, `Excluindo` e `Fundindo` os dados:
 
 ```ruby
 > puts hash
 > "{"Prato n° 1"=>"Macarrão", "Prato n° 2"=>"Salada", "Prato n° 3"=>"Bife"}"
+```
 
-#Adicionando
+### Adicionando:
+```ruby 
 > hash["Prato n° 4"] = "Feijoada"
 
 > puts hash
 > "{"Prato n° 1"=>"Macarrão", "Prato n° 2"=>"Salada", "Prato n° 3"=>"Bife", "Prato n° 4" =>"Feijoada"}"
+```
 
-#Editando
+### Editando:
+```ruby
 > hash["Prato n° 1"] = "Camarão"
 
 > puts hash 
 > "{"Prato n° 1"=>"Camarão", "Prato n° 2"=>"Salada", "Prato n° 3"=>"Bife", "Prato n° 4" =>"Feijoada"}"
+```
 
-#Excluindo
+### Excluindo:
+
+```ruby
 > hash.delete("Prato n° 4")
 
 > puts hash
 > "{"Prato n° 1"=>"Camarão", "Prato n° 2"=>"Salada", "Prato n° 3"=>"Bife"}"
 ```
 
-Desse modo, vimos que é possível adicionar, deletar e editar os dados de uma `Hash` por meio de códigos.
+### Fundindo:
+
+```ruby
+> cardapio1 = {"Prato n° 1"=>"Camarão", "Prato n° 2"=>"Salada", "Prato n° 3"=>"Bife"}
+> cardapio2 = {"Prato n° 1"=>"Peixe", "Prato n° 4"=>"Churrasco"}
+
+> cardapio3 = cardapio1.merge(cardapio2)
+
+> puts cardapio3
+
+> {"Prato n° 1"=>"Peixe", "Prato n° 2"=>"Salada", "Prato n° 3"=>"Bife", "Prato n° 4"=>"Churrasco"}
+```
+
+## Símbolos como chaves de hashes
+
+Nos exemplos acima, foi usario em sua maioridade as strings como chaves, no entanto, usualmente o consenso é a utilização de `Símbolos` como chaves. Isso acontece devido aos símbolos serem mais performáticos do que as strings em Ruby, além disso o código fica bem mais bonito, convenhamos:
+
+```ruby
+american_cars = { 
+                  :chevrolet => "Corvette",
+                  :ford => "Mustang", 
+                  :dodge => "Ram" 
+                }
+
+japanese_cars = { 
+                  honda: "Accord", 
+                  toyota: "Corolla", 
+                  nissan: "Altima" 
+                }
+```
+
+Muito mais bonito, não? E o melhor de tudo, performático! No entanto, vale ressaltar algumas coisas:
+
+  - Mesmo mudando as chaves, o método de chamada da `Hash` continua o mesmo:
+
+  ```ruby
+  american_cars[:ford]    #=> "Mustang"
+  japanese_cars[:honda]   #=> "Accord"
+  ```
+
+Desse modo, aprendemos sobre as Hashes, utilizando métodos básicos para adicionar, editar, excluir e fundir. 
