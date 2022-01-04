@@ -53,6 +53,7 @@ Ruby4Noobs
   2. [Variaveis](4-Variaveis/variaveis.md)
   5. [Estruturas de Repetição](5-Estruturas-de-repeticao/estruturas-de-repeticao.md)
   9. [Hashes](9-Hashes/hashes.md)
+  11. [Métodos básicos de enumeração](11-Metodos-basicos-de-enum/MetodosBasicosEnum.md)
   - [Sub-conteúdo](link-sub-conteudo)
   	- [Sub-conteúdo](link-sub-conteudo)
   - [Sub-conteúdo](link-sub-conteudo)
